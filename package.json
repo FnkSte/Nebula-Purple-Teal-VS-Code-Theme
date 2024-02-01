@@ -21,6 +21,7 @@
 		"Purple",
 		"Teal"
 	],
+	"icon": "icon.png",
 	"engines": {
 		"vscode": "*"
 	},
