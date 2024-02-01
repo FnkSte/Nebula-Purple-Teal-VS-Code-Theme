@@ -1,8 +1,10 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Ste Mc Dark",
+	"name": "Nebula Purple and Teal",
 	"include": "./dark_defaults.json",
 	"tokenColors": [
+
+
 		{//Default Values
 			"scope": [
 				"meta.embedded",
@@ -329,6 +331,8 @@
 				"foreground": "#569cd6"
 			}
 		},
+
+		
 		{//SMC CSS & SCSS
 			"scope": [
 				"entity.name.tag.css",
@@ -344,16 +348,23 @@
 				"punctuation.separator.key-value.scss"
 			],
 			"settings": {
-				"foreground": "#ff7fff"
+				"foreground": "#dbb3fc"
 			}
 		},
 		{
 			"scope" : [
-				"constant.numeric.css",
 				"constant.other.color.rgb-value.hex.css",
 				"meta.property-value.scss",
 				"meta.property-list.scss",
 				"meta.definition.variable.scss",
+				"keyword.operator.logical.scss",
+				"keyword.operator.scss",
+				"punctuation.definition.string.begin.scss",
+				"punctuation.definition.string.end.scss",
+				"support.constant.property-value.css",
+				"support.constant.font-name.css",
+				"support.constant.media.css",
+				"constant.numeric.css",
 				"keyword.other.unit.px.css",
 				"keyword.other.unit.pt.css",
 				"keyword.other.unit.vw.css",
@@ -362,21 +373,21 @@
 				"keyword.other.unit.rem.css",
 				"keyword.other.unit.deg.css",
 				"keyword.other.unit.percentage.css",
-				"keyword.other.unit.s.css",
-				"keyword.operator.logical.scss",
-				"keyword.operator.scss",
-				"punctuation.definition.string.begin.scss",
-				"punctuation.definition.string.end.scss",
-				"support.constant.property-value.css",
-				"support.constant.font-name.css",
-				"support.constant.media.css",
+				"keyword.other.unit.s.css"
+			],
+			"settings": {
+				"foreground": "#84fcb5"
+			}
+		},
+		{
+			"scope": [
 				"string.quoted.single.css",
 				"string.quoted.double.css",
 				"string.quoted.single.scss",
 				"string.quoted.double.attribute-value.scss"
 			],
-			"settings": {
-				"foreground": "#47c0ff"
+			"settings" : {
+				"foreground": "#84fcb5"
 			}
 		},
 		{
@@ -390,7 +401,7 @@
 				"source.css.scss"
 			],
 			"settings": {
-				"foreground": "#d988e9"
+				"foreground": "#dbb3fc"
 			}
 		},
 		{
@@ -410,8 +421,8 @@
 				"variable.other.less"
 			],
 			"settings": {
-				"foreground": "#d7acdd",
-				"fontStyle": "bold"
+				"foreground": "#b863ff",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -421,7 +432,7 @@
 				"source.coffee.embedded"
 			],
 			"settings": {
-				"foreground": "#afd2ff"
+				"foreground": "#b863ff"
 			}
 		},
 		{
@@ -429,7 +440,7 @@
 				"support.type.vendored.property-name",
 			],
 			"settings": {
-				"foreground": "#afd2ff"
+				"foreground": "#daafff"
 			}
 		},
 		{
@@ -441,6 +452,8 @@
 				"fontStyle": "italic"
 			}
 		},
+
+
 		{//SMC HTML
 			"scope": [
 				"entity.name.tag.html",
@@ -468,6 +481,8 @@
 				"foreground": "#42b4ff"
 			}
 		},
+
+		
 		{//SMC JS
 			"scope": [
 				"entity.name.function.js",
@@ -493,7 +508,7 @@
 				"string.quoted.double.js"
 			],
 			"settings": {
-				"foreground": "#97d0ff"
+				"foreground": "#84fcb5"
 			}
 		},
 		{
@@ -548,6 +563,8 @@
 				"foreground": "#ff4676"
 			}
 		},
+
+
 		{//SMC PHP
 			"scope": [
 				"punctuation.section.embedded.begin.php",
@@ -598,7 +615,7 @@
 				"constant.numeric.decimal.php"
 			],
 			"settings": {
-				"foreground": "#f43e68"
+				"foreground": "#84fcb5"
 			}
 		},
 		{
@@ -637,7 +654,7 @@
 				"keyword.control.default.php"
 			],
 			"settings": {
-				"foreground": "#a7e37e"
+				"foreground": "#84fcb5"
 			}
 		},
 		{
@@ -676,6 +693,8 @@
 				"foreground": "#59b9f0"
 			}
 		},
+
+
 		{//PHP SQL
 			"scope": [
 				"string.quoted.double.sql.php",
@@ -694,13 +713,15 @@
 				"foreground": "#d973f8",
 			}
 		},
+		
+
 		{//JSON
 			"scope": [
 				"string.quoted.double.json",
 				"string.quoted.single.json"
 			],
 			"settings": {
-				"foreground": "#ff8fff",
+				"foreground": "#dbb3fc",
 			}
 		}
 	]

@@ -31,7 +31,7 @@
 				"id": "Nebula Purple and Teal",
 				"label": "Nebula Purple and Teal",
 				"uiTheme": "vs-dark",
-				"path": "./themes/nebula_plus.json"
+				"path": "./themes/dark_plus.json"
 			}
 		],
 		"iconThemes": [
@@ -45,7 +45,7 @@
 	"__metadata": {
 		"id": "2052c41b-2fc9-415a-8827-361faf05a77e",
 		"publisherId": "6aa91c66-d102-4690-854f-54ea44a33e49",
-		"publisherDisplayName": "vsce login SteMc77",
+		"publisherDisplayName": "SteMc77",
 		"installedTimestamp": 1625330468082
 	}
 }
