@@ -1,7 +1,7 @@
 {
-	"name": "smc-dark",
-	"displayName": "S Mc Dark Theme",
-	"description": "Ste Mc version of Deamweavers color syntax highlighting but dark",
+	"name": "nebula-purple-teal-vs-code-theme",
+	"displayName": "Nebula Purple and Teal Theme",
+	"description": "A cool dark, purple and teal theme for Visual Studio Code",
 	"categories": [
 		"Themes"
 	],
@@ -10,14 +10,16 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/FnkSte/theme-smc-dark.git"
+		"url": "https://github.com/FnkSte/Nebula-Purple-Teal-VS-Code-Theme.git"
 	},
 	"keywords": [
 		"Theme",
 		"Dark Theme",
 		"Night Owl",
 		"Night Theme",
-		"Accessible Theme"
+		"Accessible Theme",
+		"Purple",
+		"Teal"
 	],
 	"engines": {
 		"vscode": "*"
@@ -25,10 +27,10 @@
 	"contributes": {
 		"themes": [
 			{
-				"id": "SMC Dark",
-				"label": "Ste Mc Dark",
+				"id": "Nebula Purple and Teal",
+				"label": "Nebula Purple and Teal",
 				"uiTheme": "vs-dark",
-				"path": "./themes/dark_plus.json"
+				"path": "./themes/nebula_plus.json"
 			}
 		],
 		"iconThemes": [
@@ -40,7 +42,7 @@
 		]
 	},
 	"__metadata": {
-		"id": "2052c41b-2fc9-415a-8827-361faf05a78e",
+		"id": "2052c41b-2fc9-415a-8827-361faf05a77e",
 		"publisherId": "6aa91c66-d102-4690-854f-54ea44a33e49",
 		"publisherDisplayName": "vsce login SteMc77",
 		"installedTimestamp": 1625330468082
