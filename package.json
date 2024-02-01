@@ -1,0 +1,48 @@
+{
+	"name": "smc-dark",
+	"displayName": "S Mc Dark Theme",
+	"description": "Ste Mc version of Deamweavers color syntax highlighting but dark",
+	"categories": [
+		"Themes"
+	],
+	"version": "1.0.1",
+	"publisher": "SteMc77",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FnkSte/theme-smc-dark.git"
+	},
+	"keywords": [
+		"Theme",
+		"Dark Theme",
+		"Night Owl",
+		"Night Theme",
+		"Accessible Theme"
+	],
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"id": "SMC Dark",
+				"label": "Ste Mc Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_plus.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "vs-minimal",
+				"label": "Minimal (Visual Studio Code)",
+				"path": "./fileicons/vs_minimal-icon-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "2052c41b-2fc9-415a-8827-361faf05a78e",
+		"publisherId": "6aa91c66-d102-4690-854f-54ea44a33e49",
+		"publisherDisplayName": "vsce login SteMc77",
+		"installedTimestamp": 1625330468082
+	}
+}
