@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "SMC Dark Default Colors",
+	"name": "Nebula Purple Teal Default Colors",
 	"colors": {
 		"editor.background": "#1E1E1E",
 		"editor.foreground": "#D4D4D4",
@@ -9,15 +9,15 @@
 		"editorIndentGuide.activeBackground1": "#707070",
 		"editor.selectionHighlightBackground": "#ADD6FF26",
 		"list.dropBackground": "#383B3D",
-		"activityBarBadge.background": "#007ACC",
+		"activityBarBadge.background": "#b863ff",
 		"sideBarTitle.foreground": "#BBBBBB",
 		"input.placeholderForeground": "#A6A6A6",
 		"settings.textInputBackground": "#292929",
 		"settings.numberInputBackground": "#292929",
 		"menu.background": "#252526",
 		"menu.foreground": "#CCCCCC",
-		"statusBarItem.remoteForeground": "#FFF",
-		"statusBarItem.remoteBackground": "#16825D",
+		"statusBarItem.remoteForeground": "#512c6f",
+		"statusBarItem.remoteBackground": "#dbb3fc",
 		"sideBarSectionHeader.background": "#0000",
 		"sideBarSectionHeader.border": "#ccc3"
 	},

@@ -332,8 +332,11 @@
 			}
 		},
 
+		//-----------------------------------
+		// CSS & SCSS
+		//-----------------------------------
 		
-		{//SMC CSS & SCSS
+		{
 			"scope": [
 				"entity.name.tag.css",
 				"entity.other.attribute-name.class.css",
@@ -348,7 +351,7 @@
 				"punctuation.separator.key-value.scss"
 			],
 			"settings": {
-				"foreground": "#dbb3fc"
+				"foreground": "#84fcb5"
 			}
 		},
 		{
@@ -376,7 +379,7 @@
 				"keyword.other.unit.s.css"
 			],
 			"settings": {
-				"foreground": "#84fcb5"
+				"foreground": "#dbb3fc"
 			}
 		},
 		{
@@ -387,7 +390,7 @@
 				"string.quoted.double.attribute-value.scss"
 			],
 			"settings" : {
-				"foreground": "#84fcb5"
+				"foreground": "#dbb3fc"
 			}
 		},
 		{
@@ -453,8 +456,10 @@
 			}
 		},
 
-
-		{//SMC HTML
+		//-----------------------------------
+		// HTML
+		//-----------------------------------
+		{
 			"scope": [
 				"entity.name.tag.html",
 				"punctuation.definition.tag.begin.html",
@@ -482,8 +487,10 @@
 			}
 		},
 
-		
-		{//SMC JS
+		//-----------------------------------
+		//JS
+		//-----------------------------------
+		{
 			"scope": [
 				"entity.name.function.js",
 				"support.variable.js"
@@ -564,8 +571,10 @@
 			}
 		},
 
-
-		{//SMC PHP
+		//-----------------------------------
+		// PHP
+		//-----------------------------------
+		{
 			"scope": [
 				"punctuation.section.embedded.begin.php",
 				"punctuation.section.embedded.end.php"
@@ -695,7 +704,10 @@
 		},
 
 
-		{//PHP SQL
+		//-----------------------------------
+		// PHP SQL
+		//-----------------------------------
+		{
 			"scope": [
 				"string.quoted.double.sql.php",
 				"string.quoted.single.sql",
@@ -714,14 +726,28 @@
 			}
 		},
 		
-
-		{//JSON
+		//-----------------------------------
+		// JSON
+		//-----------------------------------
+		{
 			"scope": [
 				"string.quoted.double.json",
 				"string.quoted.single.json"
 			],
 			"settings": {
 				"foreground": "#dbb3fc",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.json",
+				"punctuation.definition.begin.bracket.curly.json",
+				"punctuation.definition.end.bracket.curly.json",
+				"punctuation.definition.class.begin.bracket.curly.json",
+				"punctuation.definition.class.end.bracket.curly.json"
+			],
+			"settings": {
+				"foreground": "#a7ff03"
 			}
 		}
 	]
