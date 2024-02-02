@@ -2,7 +2,7 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Nebula Purple Teal Default Colors",
 	"colors": {
-		"titleBar.activeBackground": "#252526",
+		"titleBar.activeBackground": "#202020",
 		"editor.background": "#1E1E1E",
 		"editor.foreground": "#D4D4D4",
 		"editor.inactiveSelectionBackground": "#3a3d41c2",
