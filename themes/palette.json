@@ -3,11 +3,17 @@
         "dark_purple" : "#b863ff",
         "light_purple" : "#dbb3fc",
         "pink" : "#df89f4",
+        "text" : "#b3a4c1",
         "light_text" : "#b3a4c1",
+        "light_purple_text" : "#efd8fc",
         "teal" : "#84fcb5",
+        "teal_dark" : "#4ec9b0",
         "teal_light" : "#d8fde7",
         "main_purple" : "#8e19ee",
         "main_purple_light" : "#962bee",
-        "lilac": "#a99fff"
+        "html" : "#867ce2",
+        "lilac": "#a99fff",
+        "true": "#08ff6f",
+        "false": "#ff4676"
     }
 }
