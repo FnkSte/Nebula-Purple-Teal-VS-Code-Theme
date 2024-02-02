@@ -10,7 +10,7 @@
 				"support.function",
 				"support.constant.handlebars",
 				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+				"entity.name.operator.custom-literal"
 			],
 			"settings": {
 				"foreground": "#91cde9"
@@ -82,7 +82,7 @@
 				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#fc91cf"
+				"foreground": "#a99fff"
 			}
 		},
 		{
@@ -94,7 +94,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#84fcb5"
 			}
 		},
 		{
@@ -113,7 +113,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#84fcb5"
 			}
 		},
 		{
